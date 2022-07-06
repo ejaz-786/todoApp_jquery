@@ -1,0 +1,16 @@
+
+#success{
+    background-color: rgb(124, 217, 124);
+}
+.close{
+    color:white;
+}
+#error{
+    background-color: rgb(241, 132, 132);
+}
+span{
+    margin: 5px;
+}
+#btn-1{
+    margin-top: 10px;
+}

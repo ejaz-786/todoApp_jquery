@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div id="div1">roll no:<input type="text" id="inp1"></div>
+        <div id="div2">name:<input type="text" id="inp2"></div>
+        <div id="div3">price:<input type="text" id="inp3"></div>
+        <div id="div4">quant:<input type="text" id="inp4"></div>
+        <div><input type="button" value="add product" name="btn" id="btn-1"></div>
+        
+        <div id="alert">
+        <div id="success">
+            <p>added successfully !<a href="#" class="close">x</a></p>
+        </div>
+
+        <div id="error">
+            <p>error geneated !<a href="#" class="close">x</a></p>
+        </div>
+       </div>
+
+        <table id="mytable">
+            <tr>
+                <th>roll</th>
+                <th>name</th>
+                <th>price</th>
+                <th>quant</th>
+                <th>action</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>ejaz</td>
+                <td>500</td>
+                <td>5</td>
+                <td><span><a href="#" class="edit">Edit</a></span><span><a href="#" class="delete">delete</a></span></td>
+            </tr>
+        </table>
+
+
+
+    </div>
+</body>
+</html>
